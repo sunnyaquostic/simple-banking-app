@@ -55,7 +55,7 @@ def main():
         elif choice == '3':
             balance -= withdraw(balance)
         elif choice == '4':
-            is_running == False
+            is_running = False
         else:
             print("**********************")
             print("That is not a valid choice!")
